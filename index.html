@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <h1>My Responsive Webpage</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout using Grid -->
+  <main class="grid-layout">
+    <section class="content">
+      <h2>Welcome</h2>
+      <p>This section demonstrates a CSS Grid layout for main content and sidebar. Resize your browser to see the responsiveness.</p>
+
+      <!-- Flexbox cards -->
+      <div class="card-container">
+        <div class="card">
+          <h3>Card 1</h3>
+          <p>Using Flexbox for alignment.</p>
+        </div>
+        <div class="card">
+          <h3>Card 2</h3>
+          <p>Cards stay side by side on large screens but stack on small ones.</p>
+        </div>
+        <div class="card">
+          <h3>Card 3</h3>
+          <p>Flexbox handles equal spacing and alignment.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>This is the sidebar area. It will reposition below content on smaller screens.</p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Responsive Design Practice</p>
+  </footer>
+</body>
+</html>
